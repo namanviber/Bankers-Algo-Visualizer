@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Home(1).css">
+</head>
+
+<body>
+    <div id="navbar">
+        <a href="Home.html">Deadlock & Concurrency</a>
+        <div id="dropdown">
+            <button id="dropbtn">Algorithms
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div id="dropdown-content">
+                <a href="counting_semaphore.html">Counting Semaphore</a>
+                <a href="p&c.html">Producer & Consumer</a>
+                <a href="dining_philosophers.html">Dining Philosopher</a>
+                <a href="Bankers.html">Banker's algorithm</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Deadlock and Synchronization</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="slogan">
+        <a href="/counting_semaphore.html">
+            <h6>Counting Semaphores</h6>
+        </a>
+        <a href="/p&c.html">
+            <h6>Producer & Consumer</h6>
+        </a>
+        <a href="/dining_philosophers.html">
+            <h6>Dining Philosopher</h6>
+        </a>
+        <a href="/Bankers.html">
+            <h6>Bankers Algorithm</h6>
+        </a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section>
+        <div class="container">
+            <div class="cont_row">
+                <div class="card">
+                    <a href="/counting_semaphore.html">
+                        <img src="/images/counting.jpeg" alt="">
+                        <div class="text">
+                            <h3> Counting Semaphores </h3>
+                            <p>They can have any value. They can be used to control access to a resource that
+                                has
+                                a limitation on the number of simultaneous access. The semaphore can be initialised to
+                                the
+                                number
+                                of instances of the resource. If process find remaining_instances > 0 then it decreses
+                                the
+                                value
+                                and enter CS. During exit the value will be increased by 1.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="/p&c.html">
+                        <img src="images/producer_consumer.png" alt="">
+                        <div class="text">
+                            <h3> Producer & Consumer </h3>
+                            <p>It is a classical multi-process synchronisation problem. There is one producer and one
+                                consumer. Producer is producing some items until buffer is full, whereas consumer
+                                consumes the item until
+                                buffer is empty. They share same memory buffer which is of fixed size. But both cannot
+                                access the memory
+                                buffer at the same time. </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="cont_row">
+                <div class="card">
+                    <a href="dining_philosophers.html">
+                        <img src="images/dining.png" alt="">
+                        <div class="text">
+                            <h3> Dining Philosopher</h3>
+                            <p>There are 5 philosophers sharing a circular table and they eat and think
+                                alternatively. There is a bowl of rice for each philosophers and 5 chopsticks. A
+                                philosopher needs both
+                                their right and left chopstick to eat. A philosopher may eat if there are both
+                                chopsticks available else
+                                puts down their chopstick and begin thinking again.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="Bankers.html">
+                        <img src="images/bankers.jpg" alt="">
+                        <div class="text">
+                            <h3> Bankers Algorithm </h3>
+                            <p>The banker's algorithm is a resource allocation algorithm and deadlock avoidance
+                                algorithm that tests for safety by simulating the alocation for predetermined maximum
+                                possible amounts of
+                                all resources and making decision whether allocation should be allowed or not.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <br>
+        <h2 > Our Team </h2>
+        <br>
+        <div class="about_us">
+            <div class="cont">
+                <img src="/images/p1.png" alt="">
+                <div class="text_cont">
+                    <h3>Naman Jain</h3>
+                    <p>2021 Btech Cse</p>
+                </div>
+            </div>
+            <div class="cont">
+                <img src="/images/p1.png" alt="">
+                <div class="text_cont">
+                    <h3>Dhaval Pathak</h3>
+                    <p>2021 Btech Cse</p>
+                </div>
+            </div>
+            <div class="cont">
+                <img src="/images/p1.png" alt="">
+                <div class="text_cont">
+                    <h3>Siddharth Aggarwal</h3>
+                    <p>2021 Btech Cse</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="about_us">
+            <div class="cont">
+                <img src="/images/p1.png" alt="">
+                <div class="text_cont">
+                    <h3>Aryaman Sital</h3>
+                    <p>2021 Btech Cse</p>
+                </div>
+            </div>
+            <div class="cont">
+                <img src="/images/p1.png" alt="">
+                <div class="text_cont">
+                    <h3>Shivam Gupta</h3>
+                    <p>2021 Btech Cse</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    </footer>
+</body>
+
+</html>
